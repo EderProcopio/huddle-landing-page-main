@@ -2,7 +2,7 @@ body {
    display: flex;
    flex-direction: column;
    margin: 35px 45px;
-   background-image: url('/src/images/bg-mobile.svg');
+   background-image: url("../images/bg-mobile.svg");
    background-repeat: no-repeat;
    background-size: 100%;
    background-color: var(--bg-mask);

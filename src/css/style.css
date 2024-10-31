@@ -1,6 +1,6 @@
 @media (min-width:860px) {
    body {
-      background-image: url(./src/images/bg-desktop.svg);
+      background-image: url("../images/bg-desktop.svg");
       background-size: 92%;
       margin: 35px 50px;
    }
