@@ -1,0 +1,105 @@
+body {
+   display: flex;
+   flex-direction: column;
+   margin: 35px 45px;
+   background-image: url('/src/images/bg-mobile.svg');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-color: var(--bg-mask);
+   color: white;
+   font-family: var(--font-family-body);
+   font-weight: var(--font-weight-normal);
+}
+
+.logo {
+   margin-bottom: 65px;
+}
+
+.logo-link img {
+   width: 45%;
+}
+
+.content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.content .illustration-container {
+   margin-bottom: 70px;
+}
+
+.content .illustration-container .illustration {
+   max-width: 100%;
+}
+
+.content .description {
+   text-align: center;
+   margin-bottom: 85px;
+   max-width: 100%;
+}
+
+.content .description h1 {
+   font-family: var(--font-family-headings);
+   font-weight: var(--font-weight-bold);
+   font-size: 28px;
+   margin-bottom: 15px;
+}
+
+.content .description p {
+   font-size: 18px;
+   margin-bottom: 30px;
+   line-height: 30px;
+}
+
+.content .description .btn {
+   background-color: white;
+   color: #674baf;
+   padding: 12px 86px;
+   border-radius: 50px;
+   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.331);
+   transition: ease-in-out 0.3s;
+}
+
+.content .description .btn:hover {
+   color: white;
+   background-color: var(--active-status);
+}
+
+.links {
+   width: 120px;
+   margin-bottom: 50px;
+}
+
+.links ul {
+   display: flex;
+   justify-content: space-between;
+}
+
+.links ul li .social-media {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid white;
+   border-radius: 50%;
+   width: 30px;
+   height: 30px;
+   color: white;
+   transition: ease-in-out 0.3s;
+}
+
+.links ul li .social-media:hover {
+   border: 1px solid var(--active-status);
+   color: var(--active-status);
+}
+
+.attribution {
+   color: white;
+   font-size: 11px; 
+   text-align: center; 
+}
+.attribution a { 
+   color: white;
+   font-weight: bolder;
+}

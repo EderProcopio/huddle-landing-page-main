@@ -1,0 +1,71 @@
+@media (min-width:860px) {
+   body {
+      background-image: url('/src/images/bg-desktop.svg');
+      background-size: 92%;
+      margin: 35px 50px;
+   }
+
+   .logo {
+      max-width: 100vh;
+      margin-bottom: 38px;
+   }
+
+   .logo .logo-link img{
+      width: 25%;
+   }
+
+   .content {
+      max-width: 100%;
+      display: grid;
+      grid-template-areas:
+      "illustration-container description"
+      "illustration-container links"
+      ;
+      grid-template-columns: 55% 1fr ;
+      grid-template-rows: 65vh 1fr;
+   }
+
+
+   .illustration-container {
+      grid-area: illustration-container;
+      max-width: 100%;
+   }
+
+   .description {
+      grid-area: description;
+   }
+
+   .content .description {
+      margin: 0 0 0 35px;
+      text-align: left;
+      height: 100%;
+      padding: 50px 0;
+   }
+
+   .content .description h1 {
+      text-align: left;
+   }
+
+   .content .description p {
+      text-align: left;
+      font-size: 13px;
+      line-height: normal;
+      margin-bottom: 25px;
+   }
+
+   .content .description .btn {
+      padding: 10px 46px;
+      font-size: 13px;
+   }
+
+   .links {
+      display: flex;
+      justify-content: flex-end;
+      grid-area: links;
+      width: 100%;
+   }
+
+   .links ul {
+      gap: 10px;
+   }
+}
