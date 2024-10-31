@@ -22,7 +22,7 @@ A proposta inclui um design responsivo, adaptável a  dispositivos móveis.
 <div align="center" style="display: inline_block";> <img align="center" src="./design/desktop-design.jpg" alt="Huddle landing page para desktop" style="width: 400px; "> </div>
 
 ### Design mobile
-<div align="center" style="display: inline_block";> <img align="center" src="./design/mobile-design.jpg" alt="Huddle landing page para mobile" style="height: 200px; "> </div>
+<div align="center" style="display: inline_block";> <img align="center" src="./design/mobile-design.jpg" alt="Huddle landing page para mobile" style="height: 300px; "> </div>
 
 ### Estado ativo
 <div align="center" style="display: inline_block";> <img align="center" src="./design/active-states.jpg" alt="Huddle landing page para desktop" style="width: 400px; "> </div>
