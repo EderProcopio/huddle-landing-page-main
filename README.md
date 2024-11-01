@@ -35,4 +35,4 @@ Neste terceiro desafio, experimentei uma abordagem diferente: por se tratar de u
 
 ### Link da solução
 
-<div align="center"> <a href="https://ederprocopio.github.io/blog-preview-card-main/"> <img align="center" src="./design/huddle-page-soluction.png" alt="Imagem da página de conclusão" style="width: 250px;"> </a> </div>
+<div align="center"> <a href="https://ederprocopio.github.io/huddle-landing-page-main/"> <img align="center" src="./design/huddle-page-soluction.png" alt="Imagem da página de conclusão" style="width: 250px;"> </a> </div>
